@@ -1,4 +1,4 @@
-# TVbox_IR_control
+# TVbox IR control
 A NEC protocol based IR remote control
 - Note: TV buttons are not supported in this code
 
