@@ -3,6 +3,7 @@ A NEC protocol based IR remote control
 - Note: TV buttons are not supported in this code
 
 - Boards: Arduino (UNO, NANO, Pro Mini), ESP8266, ESP32
+- - The code can be adapted to other boards, it only needs external interrupt and micros().
 
 ![TVbox_IR_ctrl](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/TVbox_IR_control.jpg)
 
