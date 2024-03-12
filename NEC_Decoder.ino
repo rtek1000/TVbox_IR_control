@@ -22,7 +22,7 @@ const int IR_input_pin = 2;  // For ATmega328 (UNO/Nano/Pro Mini): 2, 3
 #endif
 
 // Change this setting to 1 to debug:
-#define PRINT_TIMES 1
+#define PRINT_TIMES 0
 
 volatile bool nec_ok = false;
 volatile bool nec_valid = false;
@@ -72,6 +72,16 @@ enum TVbox_ctrl_code {
   _L_ = 0x51,
   _R_ = 0x50,
   _OK_ = 0x13,
+  _0_ = 0x01,
+  _1_ = 0x4E,
+  _2_ = 0x0D,
+  _3_ = 0x0C,
+  _4_ = 0x4A,
+  _5_ = 0x09,
+  _6_ = 0x08,
+  _7_ = 0x46,
+  _8_ = 0x05,
+  _9_ = 0x04,
   _Unknown_ = 0xFF
 };
 
@@ -80,13 +90,17 @@ const char key1_char[][8] = { "Power", "Setup", "APP", "VOL DN",
                               "VOL UP", "Home", "Return", "Menu",
                               "Mouse", "Mute", "BS", "UP",
                               "Down", "Left", "Right", "OK",
-                              "Unknown" };
+                              "0", "1", "2", "3",
+                              "4", "5", "6", "7",
+                              "8", "9", "Unknown" };
 
-const uint8_t key1_ref[17] = { _Power_, _Setup_, _APP_, _VOL_DN_,
+const uint8_t key1_ref[27] = { _Power_, _Setup_, _APP_, _VOL_DN_,
                                _VOL_UP_, _Home_, _Return_, _Menu_,
                                _Mouse_, _Mute_, _BS_, _UP_,
                                _DN_, _L_, _R_, _OK_,
-                               _Unknown_ };
+                               _0_, _1_, _2_, _3_,
+                               _4_, _5_, _6_, _7_,
+                               _8_, _9_, _Unknown_ };
 
 const uint8_t Unknown_index = sizeof(key1_ref) - 1;
 
@@ -208,8 +222,14 @@ void print_text() {
   Serial.print(TVbox_scan_code(NEC_code1));
 
   Serial.print(text1);
+  if (NEC_code1.address <= 0x0F) {
+    Serial.print("0");
+  }
   Serial.print(NEC_code1.address, HEX);
   Serial.print(text2);
+  if (NEC_code1.command <= 0x0F) {
+    Serial.print("0");
+  }
   Serial.print(NEC_code1.command, HEX);
   Serial.print(text3);
   Serial.println(NEC_code1.repeat, DEC);
