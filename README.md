@@ -6,6 +6,8 @@ A NEC protocol based IR remote control
 - Boards: Arduino (UNO, NANO, Pro Mini), ESP8266, ESP32
 - - The code can be adapted to other boards, it only needs external interrupt and micros().
 
+- To do: add number keys
+
 Arduino NANO:
 > Sketch uses 3496 bytes (10%) of program storage space. Maximum is 32256 bytes.
 > 
