@@ -5,6 +5,10 @@ A NEC protocol based IR remote control
 - Boards: Arduino (UNO, NANO, Pro Mini), ESP8266, ESP32
 - - The code can be adapted to other boards, it only needs external interrupt and micros().
 
+Arduino NANO:
+> Sketch uses 3496 bytes (10%) of program storage space. Maximum is 32256 bytes.
+> Global variables use 468 bytes (22%) of dynamic memory, leaving 1580 bytes for local variables. Maximum is 2048 bytes.
+
 ![TVbox_IR_ctrl](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/TVbox_IR_control.jpg)
 
 NEC protocol:
