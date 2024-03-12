@@ -23,6 +23,12 @@ NEC protocol:
 
 -----
 
+I found an IR remote control graphic analyzer, available on this [website](https://www.circuitlake.com/ir-protocol-analyzer-software.html), for use on a PC with a receiver adapted for microphone input, it could be a good tool to see exactly what the signal is like.
+
+![img](https://lh5.googleusercontent.com/-Quaeze3-1Mk/Toewz1Y24FI/AAAAAAAAAZo/NYKudqMrQ3o/IR%252520protocol%252520analyzer.jpg)
+
+-----
+
 Licence:
 
 This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
