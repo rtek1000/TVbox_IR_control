@@ -13,7 +13,7 @@ Arduino NANO:
 TVbox IR remote control:
 - Uses 2 AAA type batteries
 
-![TVbox_IR_ctrl](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/TVbox_IR_control.jpg)
+![TVbox_IR_ctrl](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/TVbox_IR_control1.jpg)
 
 NEC protocol:
 - This code only monitors the time of the intervals (space):
