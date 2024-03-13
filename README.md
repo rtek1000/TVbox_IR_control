@@ -35,13 +35,16 @@ TVbox IR remote control:
 
 NEC protocol (from uPD6122 IC):
 - Note: the signal released by the receiver (VS1838) is inverted
-- This code only monitors the time of the intervals (space):
 
 ![NEC_Protocol](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/uPD6122.png)
 
 Details:
 
 ![NEC_Protocol](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/uPD6122_2.png)
+
+This code only monitors the time of the intervals (space):
+ 
+![NEC_Protocol](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/uPD6122_3.png)
 
 -----
 
