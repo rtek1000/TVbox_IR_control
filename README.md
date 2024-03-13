@@ -20,9 +20,9 @@ Note: TV Control buttons are not supported in this code (Unless controls with NE
 - - The code can be adapted to other boards, it only needs external interrupt and micros().
 
 Arduino NANO:
-> Sketch uses 3496 bytes (10%) of program storage space. Maximum is 32256 bytes.
-> 
-> Global variables use 468 bytes (22%) of dynamic memory, leaving 1580 bytes for local variables. Maximum is 2048 bytes.
+> Sketch uses 3522 bytes (10%) of program storage space. Maximum is 32256 bytes.
+>
+> Global variables use 556 bytes (27%) of dynamic memory, leaving 1492 bytes for local variables. Maximum is 2048 bytes.
 
 ![img](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/VS1838_2.jpg)
 
