@@ -8,11 +8,11 @@ Note: TV Control buttons are not supported in this code (Unless controls with NE
 - - The "TV control" buttons must be programmed by the user, to clone the signal from the original TV control.
 - - Procedures for performing control programming are [below](https://github.com/rtek1000/TVbox_IR_control/blob/main/README.md#procedures-for-programming-the-tv-control-buttons).
  
-![img](https://github.com/rtek1000/TVbox_IR_control/blob/main/TVbox_IR_control_TV_Control.jpg)
+![img](https://github.com/rtek1000/TVbox_IR_control/blob/main/Doc/TVbox_IR_control_TV_Control.jpg)
 
 - That's why the "TV Control" buttons on the TV-Box control come from the factory with the code 0xFF in the NEC protocol.
  
-![img](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/TV_Control_Pwr_Pulse_train.png)
+![img](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/TV_Control_Pwr_Pulse_train.png)
 
 -----
 
@@ -24,19 +24,19 @@ Arduino NANO:
 > 
 > Global variables use 468 bytes (22%) of dynamic memory, leaving 1580 bytes for local variables. Maximum is 2048 bytes.
 
-![img](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/VS1838_2.jpg)
+![img](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/VS1838_2.jpg)
 
 -----
 
 TVbox IR remote control:
 - Uses 2 AAA type batteries
 
-![TVbox_IR_ctrl](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/TVbox_IR_control1.jpg)
+![TVbox_IR_ctrl](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/TVbox_IR_control1.jpg)
 
 NEC protocol:
 - This code only monitors the time of the intervals (space):
 
-![NEC_Protocol](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/NEC-Protocol-Transmission.png)
+![NEC_Protocol](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/NEC-Protocol-Transmission.png)
 
 -----
 
@@ -48,7 +48,7 @@ I found an IR remote control graphic analyzer, available on this [website](https
 
 ## Procedures for programming the TV Control buttons
 
-![img](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/TVbox_IR_control_TV_Control.jpg)
+![img](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/TVbox_IR_control_TV_Control.jpg)
 
 1 - Press the "TV Control - Power" button on the TV-box control (right side) until (about 5 seconds) the button lights up without flashing, then release the button.
 - (If it doesn't work, try changing the batteries. Or the control is a "copy" without the ability to clone other controls)
