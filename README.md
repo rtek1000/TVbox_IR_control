@@ -48,7 +48,7 @@ This [code](https://github.com/rtek1000/TVbox_IR_control/blob/main/Arduino/NEC_D
 
 -----
 
-I found an IR remote control graphic analyzer, available on this [website](https://www.circuitlake.com/ir-protocol-analyzer-software.html), for use on a PC with a receiver adapted for microphone input, it could be a good tool to see exactly what the signal is like.(But if you have the "Saleae" type logic analyzer or another, it should be better than this via the PC sound card)
+I found an IR remote control graphic analyzer, available on this [website](https://www.circuitlake.com/ir-protocol-analyzer-software.html), for use on a PC with a receiver adapted for microphone input, it could be a good tool to see exactly what the signal is like. (But if you have the "Saleae" type logic analyzer or another, it should be better than this via the PC sound card)
 
 ![img](https://lh5.googleusercontent.com/-Quaeze3-1Mk/Toewz1Y24FI/AAAAAAAAAZo/NYKudqMrQ3o/IR%252520protocol%252520analyzer.jpg)
 
