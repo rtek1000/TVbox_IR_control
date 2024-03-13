@@ -29,7 +29,7 @@ Arduino NANO:
 ATtiny85 (Digispark):
 > Sketch uses 2096 bytes (31%) of program storage space. Maximum is 6586 bytes.
 >
-> > Global variables use 377 bytes (73%) of dynamic memory, leaving 135 bytes for local variables. Maximum is 512 bytes.
+> Global variables use 377 bytes (73%) of dynamic memory, leaving 135 bytes for local variables. Maximum is 512 bytes.
 
 ![img](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/VS1838_2.jpg)
 
