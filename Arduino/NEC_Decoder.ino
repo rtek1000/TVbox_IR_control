@@ -2,7 +2,7 @@
 // by Rtek1000
 // Mar/12/2024
 //
-// Ref.: https://www.sbprojects.net/knowledge/ir/nec.php
+// Ref.: uPD6122 IC
 
 #if defined(ESP32)
 const int IR_input_pin = 15;  // All
