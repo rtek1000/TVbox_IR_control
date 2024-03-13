@@ -1,6 +1,6 @@
 # TVbox IR control
 A NEC protocol based IR remote control
-- Note: TV Control buttons are not supported in this code
+- Note: TV Control buttons are not supported in this code (Unless controls with NEC protocol are cloned)
 - - (Pwr, Set, TV IN, VOL+, VOL-)
 - - The "TV control" buttons must be programmed by the user, to clone the signal from the original TV control.
 - - That's why the "TV Control" buttons on the TV-Box control come from the factory with the code 0xFF in the NEC protocol.
