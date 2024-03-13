@@ -1,10 +1,17 @@
 # TVbox IR control
 A NEC protocol based IR remote control
-- Note: TV Control buttons are not supported in this code (Unless controls with NEC protocol are cloned)
+
+-----
+
+Note: TV Control buttons are not supported in this code (Unless controls with NEC protocol are cloned)
 - - (Pwr, Set, TV IN, VOL+, VOL-)
 - - The "TV control" buttons must be programmed by the user, to clone the signal from the original TV control.
 - - That's why the "TV Control" buttons on the TV-Box control come from the factory with the code 0xFF in the NEC protocol.
 - - Procedures for performing control programming are below.
+ 
+![img](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/TV_Control_Pwr_Pulse_train.png)
+
+-----
 
 - Boards: Arduino (UNO, NANO, Pro Mini), ESP8266, ESP32
 - - The code can be adapted to other boards, it only needs external interrupt and micros().
@@ -13,6 +20,8 @@ Arduino NANO:
 > Sketch uses 3496 bytes (10%) of program storage space. Maximum is 32256 bytes.
 > 
 > Global variables use 468 bytes (22%) of dynamic memory, leaving 1580 bytes for local variables. Maximum is 2048 bytes.
+
+-----
 
 TVbox IR remote control:
 - Uses 2 AAA type batteries
