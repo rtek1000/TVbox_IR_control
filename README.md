@@ -24,6 +24,8 @@ Arduino NANO:
 > 
 > Global variables use 468 bytes (22%) of dynamic memory, leaving 1580 bytes for local variables. Maximum is 2048 bytes.
 
+![img](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/VS1838.jpg)
+
 -----
 
 TVbox IR remote control:
