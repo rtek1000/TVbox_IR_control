@@ -4,13 +4,6 @@
 //
 // Ref.: https://www.sbprojects.net/knowledge/ir/nec.php
 
-#if defined(ESP32) || defined(ESP8266)
-#include <pgmspace.h>
-#else
-#include <Arduino.h>
-#include <avr/pgmspace.h>
-#endif
-
 #if defined(ESP32)
 const int IR_input_pin = 15;  // All
 // Tested with ESP32 DEVKIT V1
@@ -100,7 +93,7 @@ enum TVbox_ctrl_code {
 };
 
 const uint8_t TVbox_ctrl_addr = 0x01;
-const char key1_char[][8] PROGMEM = { "Power", "Setup", "APP", "VOL DN",
+const char key1_char[][8] = { "Power", "Setup", "APP", "VOL DN",
                                       "VOL UP", "Home", "Return", "Menu",
                                       "Mouse", "Mute", "BS", "UP",
                                       "Down", "Left", "Right", "OK",
@@ -108,7 +101,7 @@ const char key1_char[][8] PROGMEM = { "Power", "Setup", "APP", "VOL DN",
                                       "4", "5", "6", "7",
                                       "8", "9", "Unknown" };
 
-const uint8_t key1_ref[27] PROGMEM = { _Power_, _Setup_, _APP_, _VOL_DN_,
+const uint8_t key1_ref[27] = { _Power_, _Setup_, _APP_, _VOL_DN_,
                                        _VOL_UP_, _Home_, _Return_, _Menu_,
                                        _Mouse_, _Mute_, _BS_, _UP_,
                                        _DN_, _L_, _R_, _OK_,
@@ -120,10 +113,10 @@ const uint8_t Unknown_index = sizeof(key1_ref) - 1;
 
 NEC_code_t NEC_code1;
 
-const char start_txt[] PROGMEM = { "\n\nTV-box remote control decoder - NEC type - Start!" };
-const char text1[] PROGMEM = { " - [NEC decode] - Addr: 0x" };
-const char text2[] PROGMEM = { " Cmd: 0x" };
-const char text3[] PROGMEM = { " Repeat: " };
+const char start_txt[] = { "\n\nTV-box remote control decoder - NEC type - Start!" };
+const char text1[] = { " - [NEC decode] - Addr: 0x" };
+const char text2[] = { " Cmd: 0x" };
+const char text3[] = { " Repeat: " };
 
 #if defined(ESP32)
 void IRAM_ATTR int_ISR() {
