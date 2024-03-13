@@ -48,7 +48,8 @@ I found an IR remote control graphic analyzer, available on this [website](https
 
 ![img](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/TVbox_IR_control_TV_Control.jpg)
 
-1 - Press the "TV Control - Power" button on the TV-box control (right side) until (about 5 seconds) the button lights up without flashing, then release the button. (If it doesn't work, try changing the batteries. Or the control is a "copy" without the ability to clone other controls)
+1 - Press the "TV Control - Power" button on the TV-box control (right side) until (about 5 seconds) the button lights up without flashing, then release the button.
+- - (If it doesn't work, try changing the batteries. Or the control is a "copy" without the ability to clone other controls)
 
 2 - Press and release the button on the TV-box control (only the "TV Control" buttons) that you want to program, the "TV Control - Power" button on the TV-box control should be flashing.
 
