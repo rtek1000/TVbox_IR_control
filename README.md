@@ -33,7 +33,7 @@ TVbox IR remote control:
 
 ![TVbox_IR_ctrl](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/TVbox_IR_control2.jpg)
 
-NEC protocol:
+[NEC protocol](https://www.researchgate.net/figure/NEC-Protocol-Transmission_fig6_328339660):
 - This code only monitors the time of the intervals (space):
 
 ![NEC_Protocol](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/NEC-Protocol-Transmission.png)
