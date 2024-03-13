@@ -39,6 +39,10 @@ NEC protocol (from uPD6122 IC):
 
 ![NEC_Protocol](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/uPD6122.png)
 
+Details:
+
+![NEC_Protocol](https://raw.githubusercontent.com/rtek1000/TVbox_IR_control/main/Doc/uPD6122_2.png)
+
 -----
 
 I found an IR remote control graphic analyzer, available on this [website](https://www.circuitlake.com/ir-protocol-analyzer-software.html), for use on a PC with a receiver adapted for microphone input, it could be a good tool to see exactly what the signal is like.(But if you have the "Saleae" type logic analyzer or another, it should be better than this via the PC sound card)
