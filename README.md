@@ -19,6 +19,8 @@ Note: TV Control buttons are not supported in this code (Unless controls with NE
 - Boards: Arduino (UNO, NANO, Pro Mini), ESP8266, ESP32
 - - The code can be adapted to other boards (STM32, RP2040 etc), it only needs external interrupt and micros().
 
+- To do: Test code on the ATtiny85 board
+
 Arduino NANO (with PROGMEM):
 > Sketch uses 3524 bytes (10%) of program storage space. Maximum is 32256 bytes.
 >
